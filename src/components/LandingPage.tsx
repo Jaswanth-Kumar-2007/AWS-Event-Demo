@@ -34,7 +34,7 @@ export default function LandingPage({ onStart, onHowItWorks, onServices, onLeade
             </button>
             <button onClick={onHowItWorks} className="btn-secondary">How It Works</button>
             <button onClick={onServices} className="btn-secondary">AWS Services</button>
-            <button onClick={onLeaderboard} className="btn-secondary">Leaderboard</button>
+            {/* <button onClick={onLeaderboard} className="btn-secondary">Leaderboard</button> */}
           </div>
         </div>
       </div>

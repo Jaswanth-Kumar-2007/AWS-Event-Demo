@@ -36,7 +36,7 @@ export default function GameDashboard({
         </div>
         <div className="flex items-center gap-3">
           <button onClick={onServices} className="btn-ghost text-sm">Services</button>
-          <button onClick={onLeaderboard} className="btn-ghost text-sm">Leaderboard</button>
+          {/* <button onClick={onLeaderboard} className="btn-ghost text-sm">Leaderboard</button> */}
         </div>
       </div>
 
